@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    margin: 0 auto;
+}
+#inner{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
+
+
+/* -------------- 헤더 시작 -------------- */
+header{
+    position:relative;
+    height: 300px;
+    border-bottom: 1px solid #000;
+}
+
+#logo{
+    width: 400px;
+    height: 300px;
+    float: left;
+    background: url("../images/logo.jpg") no-repeat;
+    background-size: 90% 90%;
+}
+
+
+#header_right{
+    width: 700px;
+    height: 270px;
+    float: right;
+    position: relative;
+}
+
+.signInUp{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    top:2%;
+    right: 2%;
+}
+ul.signInUp li{
+    display: inline-block;
+    padding: 10px;
+}
+
+
+nav{
+    width: 690px;
+    height: 90px;
+    position: absolute;
+    bottom: -20%;
+}
+nav .menuBar li{
+    display: inline-block;    
+    padding: 0 30px;
+    border: 1px solid #000;
+    border-radius: 10%;
+}
+
+
+/* -------------- 헤더 끝 -------------- */
+/* -------------- contents 시작 -------------- */
+#contents{
+    width: 100%;
+    height: 600px;
+    /* background-color:yellow; */
+}
+/* -------------- contents 끝 -------------- */
+
+/* -------------- 푸터 시작 -------------- */
+#footer{
+    width: 100%;
+    height: 100px;
+    
+    border-top: 1px solid #000;
+}
+/* -------------- 푸터 끝 -------------- */
